@@ -1,0 +1,100 @@
+{
+    /* Minimap */
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 200,
+
+    /* VSCode */
+    "window.zoomLevel": 1,
+    "telemetry.enableTelemetry": false, // Envío de informes a MS
+    "telemetry.enableCrashReporter": false, // Envío de informes a MS
+
+    /* VSCode Editor */
+    "editor.fontFamily": "'Hæck', 'Envy Code R', 'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": 0,
+    "editor.tabSize": 2,
+    "editor.cursorSmoothCaretAnimation": true,
+    "breadcrumbs.enabled": true,
+    "editor.cursorStyle": "line",
+    "editor.renderWhitespace": "selection",
+    "editor.cursorBlinking": "smooth",
+    "editor.smoothScrolling": true,
+
+    /* Workbench */
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.tree.indent": 4,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.colorTheme": "Flatland Monokai",
+    "workbench.settings.enableNaturalLanguageSearch": false,
+
+    /* Linters */
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "html.autoClosingTags": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true, // Para guardar cuando haces ctrl + s
+    "editor.formatOnPaste": false, // Esto es opcional, formatea al pegar
+    "css.validate": false,
+    "scss.validate": false,
+    "less.validate": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "stylelint.enable": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    /* Filetypes */
+    "emmet.includeLanguages": {
+        "vue": "html"
+    },
+
+    /* Extensiones */
+    // BracketPair Colorizer 2
+    "bracket-pair-colorizer-2.colors": [
+        "#fafafa",
+        "#64b5f6",
+        "#dce775",
+        "#fff176",
+        "#ffb74d",
+        "#ff8a65",
+        "#ff5722",
+        "#bf360c"
+    ],
+
+    // Color Highlight
+    "color-highlight.markerType": "dot-before",
+
+    // TODO Tree
+    "todo-tree.filtering.excludeGlobs": ["node_modules/**"],
+    "todo-tree.general.tags": [
+        "TODO",
+        "BUG",
+        "IMPROVE"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "tag",
+            "iconColour": "lightBlue",
+            "foreground": "white",
+            "background": "#64b5f6",
+            "opacity": 50
+        },
+        "BUG": {
+            "icon": "bug",
+            "type": "tag",
+            "iconColour": "red",
+            "background": "#bf360c",
+            "foreground": "white"
+        },
+        "IMPROVE": {
+            "icon": "dashboard",
+            "type": "tag",
+            "iconColour": "yellow",
+            "background": "#fff176",
+            "foreground": "#524c00"
+        }
+    },
+    "sync.gist": "397fda9a43319e1a0059439dc5157dd2"
+}
