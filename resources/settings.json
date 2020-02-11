@@ -4,7 +4,7 @@
     "editor.minimap.maxColumn": 200,
 
     /* VSCode */
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "telemetry.enableTelemetry": false, // Envío de informes a MS
     "telemetry.enableCrashReporter": false, // Envío de informes a MS
 
@@ -96,5 +96,6 @@
             "foreground": "#524c00"
         }
     },
-    "sync.gist": ""
+    "sync.gist": "",
+    "npm.enableScriptExplorer": true
 }
