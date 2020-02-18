@@ -8,12 +8,11 @@ module.exports = {
       Atomics: 'readonly',
       SharedArrayBuffer: 'readonly'
    },
-   parser: '@typescript-eslint/parser', // Más adelante podrán poner Babel
    parserOptions: {
       ecmaVersion: 2018,
       sourceType: 'module'
    },
-   plugins: ['@typescript-eslint', 'prettier'],
+   plugins: ['prettier'],
    rules: {
       // Style config
       indent: ['error', 3], // Fuerza a 3 la identación
