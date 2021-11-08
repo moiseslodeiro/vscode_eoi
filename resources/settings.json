@@ -89,7 +89,6 @@
             "foreground": "white"
         },
         "IMPROVE": {
-            "icon": "dashboard",
             "type": "tag",
             "iconColour": "yellow",
             "background": "#fff176",
